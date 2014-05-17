@@ -1,5 +1,7 @@
 {>"layouts/master" /}
 
+{<title}Alkaw{/title}
+
 {<yield}
     <div class="main">
       <div class="hello">
