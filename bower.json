@@ -1,0 +1,29 @@
+{
+  "name": "alkaw",
+  "main": "index.js",
+  "version": "0.0.0",
+  "homepage": "https://github.com/alkaw/alkaw.com",
+  "authors": [
+    "Lucas Churchill <lucas@agtlucas.com>"
+  ],
+  "description": "Alkaw site",
+  "moduleType": [
+    "amd",
+    "es6",
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "dustjs-linkedin-helpers": "^1.1.1",
+    "requirejs": "^2.1.11",
+    "dustjs-linkedin": "^2.0.3"
+  }
+}
