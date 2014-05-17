@@ -24,6 +24,7 @@
   "dependencies": {
     "dustjs-linkedin-helpers": "^1.1.1",
     "requirejs": "^2.1.11",
-    "dustjs-linkedin": "^2.0.3"
+    "dustjs-linkedin": "^2.0.3",
+    "normalize-css": "~3.0.1"
   }
 }
