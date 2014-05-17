@@ -33,7 +33,8 @@
     "grunt-localizr": "^0.1.0",
     "grunt-contrib-jshint": "^0.10.0",
     "grunt": "^0.4.5",
-    "grunt-contrib-watch": "^0.6.1"
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-contrib-compass": "^0.8.0"
   },
   "generator-kraken": {
     "version": "1.0.0-rc.3",
