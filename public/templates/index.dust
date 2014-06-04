@@ -1,5 +1,11 @@
 {>"layouts/master" /}
 
-{<body}
-    <h1>{@pre type="content" key="greeting"/}</h1>
-{/body}
+{<title}Alkaw{/title}
+
+{<yield}
+    <div class="main">
+      <div class="hello">
+        <h1>awlka</h1>
+      </div>
+    </div>
+{/yield}
