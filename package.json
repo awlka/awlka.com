@@ -18,7 +18,9 @@
     "requirejs": "^2.1.14",
     "adaro": "^0.1.5",
     "localizr": "^0.1.0",
-    "node-sass": "^0.8.6"
+    "node-sass": "^0.8.6",
+    "grunt-contrib-compass": "^0.8.0",
+    "grunt-contrib-watch": "^0.6.1"
   },
   "devDependencies": {
     "mocha": "^1.18.0",
