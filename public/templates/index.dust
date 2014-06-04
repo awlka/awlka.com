@@ -1,6 +1,6 @@
 {>"layouts/master" /}
 
-{<title}Alkaw{/title}
+{<title}awlka{/title}
 
 {<yield}
     <div class="main">
