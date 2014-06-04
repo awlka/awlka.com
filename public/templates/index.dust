@@ -6,6 +6,7 @@
     <div class="main">
       <div class="hello">
         <h1>awlka</h1>
+        <small>Em breve...</small>
       </div>
     </div>
 {/yield}
