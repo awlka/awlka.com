@@ -13,7 +13,8 @@
 .wf-proximanova-n4-active,
 .wf-proximanova-n7-active
 .wf-active {
-  font-family: "proxima-nova", sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
   visibility: visible;
 }
 
@@ -26,6 +27,15 @@ body {
 h1 {
   font-weight: normal;
   text-transform: uppercase;
+}
+
+.coming-soon {
+  font-weight: 300;
+}
+
+.awlka-logo {
+  display: block;
+  margin: auto;
 }
 
 .main {
