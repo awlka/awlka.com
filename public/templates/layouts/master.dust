@@ -13,15 +13,14 @@
     {+yield /}
 <!-- <script data-main="/js/app" src="/components/requirejs/require.js"></script> -->
 
-<script>
+<script type="text/javascript">
   WebFontConfig = {
-    typekit: { id: 'hwe5whk' }
+    google: { families: [ 'Josefin+Sans:300,400:latin' ] }
   };
-
   (function() {
     var wf = document.createElement('script');
     wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
-              '://ajax.googleapis.com/ajax/libs/webfont/1.5.3/webfont.js';
+      '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
     wf.type = 'text/javascript';
     wf.async = 'true';
     var s = document.getElementsByTagName('script')[0];
