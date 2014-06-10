@@ -4,21 +4,25 @@
 
 .wf-loading {
   font-family: sans-serif;
+  font-weight: 400;
   visibility: hidden;
 }
 
-.wf-proximanova-i4-active,
-.wf-proximanova-i7-active,
-.wf-proximanova-n3-active,
-.wf-proximanova-n4-active,
-.wf-proximanova-n7-active
+.wf-josefinsans-n1-active,
+.wf-josefinsans-n3-active,
+.wf-josefinsans-n4-active
 .wf-active {
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 400;
   visibility: visible;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 body {
+  font-size: 1.6rem;
   font-weight: 400;
   background: $ablack;
   color: $awhite;
@@ -30,7 +34,9 @@ h1 {
 }
 
 .coming-soon {
-  font-weight: 300;
+  font-weight: 100;
+  @include font-size(3);
+  text-transform: uppercase;
 }
 
 .awlka-logo {

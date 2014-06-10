@@ -15,7 +15,7 @@
 
 <script type="text/javascript">
   WebFontConfig = {
-    google: { families: [ 'Josefin+Sans:300,400:latin' ] }
+    google: { families: [ 'Josefin+Sans:100,300,400:latin' ] }
   };
   (function() {
     var wf = document.createElement('script');
