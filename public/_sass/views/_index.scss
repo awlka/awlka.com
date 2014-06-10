@@ -6,6 +6,11 @@
   font-family: sans-serif;
   font-weight: 400;
   visibility: hidden;
+  -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
 }
 
 .wf-josefinsans-n1-active,
@@ -13,8 +18,13 @@
 .wf-josefinsans-n4-active
 .wf-active {
   font-family: 'Josefin Sans', sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   visibility: visible;
+  -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
 }
 
 html {
@@ -23,25 +33,40 @@ html {
 
 body {
   font-size: 1.6rem;
-  font-weight: 400;
   background: $ablack;
   color: $awhite;
 }
 
 h1 {
   font-weight: normal;
-  text-transform: uppercase;
-}
-
-.coming-soon {
-  font-weight: 100;
-  @include font-size(3);
-  text-transform: uppercase;
 }
 
 .awlka-logo {
   display: block;
   margin: auto;
+}
+
+.what-we-do,
+.coming-soon {
+  text-transform: uppercase;
+}
+
+.coming-soon {
+  @include font-size(3);
+  margin: 0 0 80px 0;
+}
+
+.what-we-do {
+  @include font-size(1.2);
+  margin: 30px 0 70px 0;
+}
+
+.more-info {
+  @include font-size(1.6);
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
 }
 
 .main {
