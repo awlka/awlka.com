@@ -2,37 +2,39 @@
   Index view
 \*------------------------------------*/
 
-.wf-loading {
-  font-family: sans-serif;
-  font-weight: 400;
-  visibility: hidden;
-  -webkit-transition: all .3s ease-in-out;
-    -moz-transition: all .3s ease-in-out;
-    -ms-transition: all .3s ease-in-out;
-    -o-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out;
-}
+// .wf-loading {
+//   font-family: sans-serif;
+//   font-weight: 400;
+//   visibility: hidden;
+//   -webkit-transition: all .3s ease-in-out;
+//     -moz-transition: all .3s ease-in-out;
+//     -ms-transition: all .3s ease-in-out;
+//     -o-transition: all .3s ease-in-out;
+//     transition: all .3s ease-in-out;
+// }
 
-.wf-josefinsans-n1-active,
-.wf-josefinsans-n3-active,
-.wf-josefinsans-n4-active
-.wf-active {
-  font-family: 'Josefin Sans', sans-serif;
-  font-weight: 300;
-  visibility: visible;
-  -webkit-transition: all .3s ease-in-out;
-    -moz-transition: all .3s ease-in-out;
-    -ms-transition: all .3s ease-in-out;
-    -o-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out;
-}
+// .wf-josefinsans-n1-active,
+// .wf-josefinsans-n3-active,
+// .wf-josefinsans-n4-active
+// .wf-active {
+//   font-family: 'Josefin Sans', sans-serif;
+//   font-weight: 300;
+//   visibility: visible;
+//   -webkit-transition: all .3s ease-in-out;
+//     -moz-transition: all .3s ease-in-out;
+//     -ms-transition: all .3s ease-in-out;
+//     -o-transition: all .3s ease-in-out;
+//     transition: all .3s ease-in-out;
+// }
 
 html {
   font-size: 62.5%;
 }
 
 body {
+  font-family: 'Josefin Sans', sans-serif;
   font-size: 1.6rem;
+  font-weight: 300;
   background: $ablack;
   color: $awhite;
 }
@@ -51,9 +53,23 @@ h1 {
   text-transform: uppercase;
 }
 
+.ribbon {
+  position: relative;
+  top: 12px;
+  background: $awhite;
+  height: 1px;
+  width: 100%;
+}
+
 .coming-soon {
+  position: relative;
   @include font-size(3);
   margin: 0 0 80px 0;
+  padding: 0 20px;
+  background: $ablack;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
 }
 
 .what-we-do {
@@ -79,6 +95,8 @@ h1 {
 }
 
 .hello {
+  width: 960px;
+  max-width: 100%;
   position: absolute;
   top: 50%;
   left: 50%;
