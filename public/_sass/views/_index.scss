@@ -46,6 +46,9 @@ h1 {
 .awlka-logo {
   display: block;
   margin: auto;
+  width: 247px;
+  max-width: 100%;
+  height: auto;
 }
 
 .what-we-do,
@@ -55,7 +58,7 @@ h1 {
 
 .ribbon {
   position: relative;
-  top: 12px;
+  top: 13px;
   background: $awhite;
   height: 1px;
   width: 100%;
