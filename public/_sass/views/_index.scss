@@ -29,8 +29,8 @@
 
 html {
   font-size: 62.5%;
-  @media all and (max-width : 320px) {
-    font-size: 55.5%;
+  @media only screen and (max-width : 320px) {
+    font-size: 52.5%;
   }
 }
 
