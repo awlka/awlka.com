@@ -1,6 +1,6 @@
 {>"layouts/master" /}
 
-{<title}awlka{/title}
+{<title}AWLKA{/title}
 
 {<yield}
     <div class="main">
