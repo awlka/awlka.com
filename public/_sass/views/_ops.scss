@@ -1,0 +1,29 @@
+/*------------------------------------*\
+  IE Ops
+\*------------------------------------*/
+
+html,
+body {
+  height: 100%;
+}
+
+.ie-ops {
+  margin-top: 200px;
+  padding: 40px;
+  text-align: center;
+  .awlka-logo {
+    margin: 60px auto;
+    width: 180px;
+  }
+  p {
+    @include font-size(2.5);
+    line-height: 2;
+    a {
+      color: $awhite;
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}

@@ -1,5 +1,12 @@
 {>"layouts/master" /}
 
 {<yield}
-    <h1>{@pre type="content" key="greeting"/}</h1>
+
+  <div class="ie-ops">
+    <p>Ops, parece que o seu navegador está desatualizado! :(</p>
+    <p>Por favor, atualize seu navegador ou use outro navegador, ex.: <a href="https://www.google.com/chrome/browser/" target="_blank">Google Chrome</a>, <a href="https://www.mozilla.org/en-US/firefox/desktop/" target="_blank">Firefox</a>, <a href="http://www.opera.com/" target="_blank">Opera</a>, <a href="http://www.apple.com/safari/" target="_blank">Safari</a>.</p>
+    <p>Obrigado pela compreensão e até logo! :)</p>
+    <img class="awlka-logo" src="/img/awlka-logo.png" alt="Awlka"  />
+  </div>
+
 {/yield}
