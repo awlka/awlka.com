@@ -1,5 +1,5 @@
 {>"layouts/master" /}
 
-{<body}
+{<yield}
     <h1>{@pre type="content" key="greeting"/}</h1>
-{/body}
+{/yield}
