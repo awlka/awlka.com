@@ -1,5 +1,7 @@
 {>"layouts/master" /}
 
+{<title} - Ops :({/title}
+
 {<yield}
 
   <div class="ie-ops">

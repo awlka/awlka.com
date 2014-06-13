@@ -1,7 +1,5 @@
 {>"layouts/master" /}
 
-{<title}AWLKA{/title}
-
 {<yield}
     <div class="main">
       <div class="hello">
