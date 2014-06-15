@@ -1,9 +1,17 @@
-{>"layouts/master" /}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="description" content="Alkaw">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-{<title} - Ops :({/title}
+  <title>AWLKA - Ops</title>
 
-{<yield}
-
+  <link rel="stylesheet" href="/css/main.css">
+  <link href='http://fonts.googleapis.com/css?family=Josefin+Sans:300,400' rel='stylesheet' type='text/css'>
+  <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
+</head>
+<body>
   <div class="ie-ops">
     <p>Ops, parece que o seu navegador está desatualizado! :(</p>
     <p>Por favor, atualize seu navegador ou use outro navegador, ex.: <a href="https://www.google.com/chrome/browser/" target="_blank">Google Chrome</a>, <a href="https://www.mozilla.org/en-US/firefox/desktop/" target="_blank">Firefox</a>, <a href="http://www.opera.com/" target="_blank">Opera</a>, <a href="http://www.apple.com/safari/" target="_blank">Safari</a>.</p>
@@ -11,4 +19,15 @@
     <img class="awlka-logo" src="/img/awlka-logo.png" alt="Awlka"  />
   </div>
 
-{/yield}
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-44982428-3', 'awlka.com');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>
