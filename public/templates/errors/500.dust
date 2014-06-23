@@ -1,6 +1,9 @@
 {>"layouts/master" /}
 
 {<yield}
-    <h1>{@pre type="content" key="header"/}</h1>
-    <p>{@pre type="content" key="description"/}</p>
+  <div class="main">
+    <div class="hello">
+      <h1>Oh crap, Internal Server Error! :(</h1>
+    </div>
+  </div>
 {/yield}
