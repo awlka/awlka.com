@@ -15,7 +15,6 @@
     "express": "^4.3.0",
     "dustjs-helpers": "^1.2.0",
     "dustjs-linkedin": "^2.3.5",
-    "requirejs": "^2.1.14",
     "adaro": "^0.1.5",
     "localizr": "^0.1.0",
     "node-sass": "^0.8.6",
