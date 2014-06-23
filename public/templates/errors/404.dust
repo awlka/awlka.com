@@ -1,6 +1,10 @@
 {>"layouts/master" /}
 
 {<yield}
-    <h1>{@pre type="content" key="header"/}</h1>
-    <p>{@pre type="content" key="description"/}</p>
+  <div class="main">
+    <div class="hello">
+      <h1>Nada encontrado! :(</h1>
+      <p>A página que você procura não foi encontrada, <a href="/">volte para a home...</a></p>
+    </div>
+  </div>
 {/yield}
